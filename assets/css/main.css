@@ -4,7 +4,16 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+.ai-c{
+    align-items: center;
+}
+
 /* class in alpha order */
+
 .bgc-boringblue{
     background-color: rgb(37, 137, 189);
 }
@@ -27,6 +36,17 @@ body {
 .d-f {
     display:flex;
 }
+.ff-impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fz-2 {
+    font-size: 2rem ;
+}
 
 .jc-sb {
     justify-content: space-between;
@@ -47,9 +67,15 @@ body {
 .mt {
     margin-top: 1.5rem
 }
+.p0 {
+    padding: 0%;
+}
+
 .p{
     padding:1.5rem
 }
+
+
 
 .w-100 {
     width: 100%
@@ -61,3 +87,7 @@ body {
         display: flex;
     }
 }
+
+    .ml\@lrg {
+        margin-left: 1.5rem;
+    }
